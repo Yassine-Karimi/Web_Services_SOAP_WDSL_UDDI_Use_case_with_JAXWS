@@ -8,6 +8,7 @@ import jakarta.xml.bind.annotation.XmlTransient;
 import java.util.Date;
 
 @XmlRootElement(name = "compte")
+
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Compte {
     private int code;
